@@ -32,3 +32,7 @@ rm <nombre del archivo> me permite borrar un archivo
 git reset <version de commit> Nos permite volver a esa version del archivo
     hay 2 versiones de reset, --hard(TODO VUELVE A ESE LUGAR) --soft(Volvemos a esa version, pero
     lo que tenemos en stagin sigue en stagin)
+
+git checkout <version de commit> <nombredearchivo.ej> Nos permite volver al estado de ese archivo, pero sin commit, vemos esa version "en la vida real".
+	para volver a la version actual:  git checkout <master> <nombredearchivo.ej>
+
